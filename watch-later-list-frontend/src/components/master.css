@@ -1,0 +1,189 @@
+/* addRecord.js */
+ .add-record-container {
+    margin-bottom: 20px;
+  }
+  
+  .add-record-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-record-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .add-record-form input[type="text"],
+  .add-record-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-record-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-record-form button:hover {
+    background-color: #0056b3;
+  }
+  
+/* record.js */
+.record-row {
+    background-color: #f8f9fa;
+  }
+  
+  .record-cell {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .record-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .record-link:hover {
+    text-decoration: underline;
+  }
+  
+  .record-delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .record-delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .record-update-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .record-update-button:hover {
+    background-color: #218838;
+  }
+  
+/* recordList.js */
+
+.filter-container {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.filter {
+  margin-right: 20px;
+}
+
+.filtertype {
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.filter select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.record-list-container {
+    margin-top: 20px;
+  }
+  
+  .record-table-container {
+    width: 100%;
+    overflow-x: auto; 
+  }
+  
+  .record-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .record-table th,
+  .record-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    white-space: nowrap;
+    text-align: center; 
+  }
+  
+  .record-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .record-table td:last-child {
+    text-align: center;
+  }
+
+  /* updateRecordForm.js */
+
+  .update-record-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .update-record-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .update-record-form .form-row {
+    margin-bottom: 15px;
+  }
+  
+  .update-record-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .update-record-form select,
+  .update-record-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-record-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-record-form button:hover {
+    background-color: #0056b3;
+  }
